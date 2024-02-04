@@ -1,0 +1,17 @@
+require:
+  -rubocop-perfomance
+# -rubocop-rspec
+  -rubocop-rails
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0.0
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
